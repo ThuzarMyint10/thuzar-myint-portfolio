@@ -1,0 +1,29 @@
+.tech-pill {
+  font-size: 11px;
+
+  font-weight: 300;
+
+  padding: 4px 13px;
+
+  border-radius: 20px;
+
+  font-family: 'Roboto', monospace;
+
+  border: 1px solid;
+
+  cursor: default;
+
+  transition: all 0.2s;
+
+  background: var(--pill-bg);
+
+  border-color: var(--pill-border);
+
+  color: var(--pill-color);
+}
+
+.tech-pill:hover {
+  transform: translateY(-2px);
+
+  filter: brightness(1.25);
+}

@@ -1,0 +1,121 @@
+.background-scene {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 0;
+
+  overflow: hidden;
+
+  pointer-events: none;
+}
+
+/* Grid */
+
+.bg-grid {
+  position: absolute;
+
+  inset: 0;
+
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.018) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.018) 1px,
+      transparent 1px
+    );
+
+  background-size: 40px 40px;
+}
+
+/* Shared Orb */
+
+.bg-orb {
+  position: absolute;
+
+  border-radius: 50%;
+}
+
+/* Orb 1 */
+
+.orb-1 {
+  width: 520px;
+
+  height: 520px;
+
+  top: -120px;
+
+  left: -160px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(0,255,140,0.08) 0%,
+      transparent 70%
+    );
+
+  animation:
+    orb1 20s ease-in-out infinite;
+}
+
+/* Orb 2 */
+
+.orb-2 {
+  width: 640px;
+
+  height: 640px;
+
+  right: -200px;
+
+  bottom: -220px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(167,139,250,0.10) 0%,
+      transparent 70%
+    );
+
+  animation:
+    orb2 25s ease-in-out infinite;
+}
+
+/* Orb 3 */
+
+.orb-3 {
+  width: 420px;
+
+  height: 420px;
+
+  top: 42%;
+
+  left: 38%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(45,212,191,0.07) 0%,
+      transparent 70%
+    );
+
+  animation:
+    orb3 17s ease-in-out infinite;
+}
+
+/* Vignette */
+
+.bg-vignette {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 50%,
+      transparent 50%,
+      rgba(8,8,16,0.6) 100%
+    );
+}

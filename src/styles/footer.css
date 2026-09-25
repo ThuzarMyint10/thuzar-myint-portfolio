@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  padding: 20px 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  border-top: 1px solid var(--border);
+
+  background: var(--bg2);
+}
+
+.footer-text {
+  font-size: 11px;
+  color: var(--text3);
+  font-family: 'Roboto', monospace;
+}
