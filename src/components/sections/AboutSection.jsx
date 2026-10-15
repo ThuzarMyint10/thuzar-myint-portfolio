@@ -1,5 +1,6 @@
 import Avatar from "../common/Avatar";
 import TechPill from "../common/TechPill";
+import { FaDownload } from "react-icons/fa";
 
 import useTypewriter from "../../hooks/useTypewriter";
 
@@ -8,6 +9,8 @@ import { TECH_PILLS } from "../../data/techPills";
 import { ABOUT_DATA } from "../../data/aboutData";
 
 import scrollToSection from "../../utils/scrollToSection";
+
+const resumeUrl = `${import.meta.env.BASE_URL}ThuZar-Myint-CV.pdf`;
 
 function AboutSection() {
   const typed = useTypewriter(TYPEWRITER_TEXTS);
@@ -76,6 +79,10 @@ function AboutSection() {
         >
           Get In Touch
         </button>
+
+        <a className="secondary-btn about-cv-link" href={resumeUrl} download="ThuZar-Myint-CV.pdf">
+          <FaDownload aria-hidden="true" /> Download CV
+        </a>
       </div>
 
       {/* Scroll */}

@@ -27,7 +27,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="section contact-section">
       <SectionHeader
-        index={5}
+        index={6}
         label="Let's Connect"
         title="Let's Work Together"
         sub="I'm actively seeking new opportunities and would love to connect. Whether you're looking to hire, collaborate, or just explore — feel free to reach out and I'll respond within 24 hours."
@@ -51,11 +51,11 @@ export default function ContactSection() {
           <ul className="contact-list">
             <li>
               <FaPhone className="contact-icon" />
-              <span>+959 972 282 919</span>
+              <a href="tel:+959972282919">+959 972 282 919</a>
             </li>
             <li>
               <FaEnvelope className="contact-icon" />
-              <span>thuzarmyint795@gmail.com</span>
+              <a href="mailto:thuzarmyint795@gmail.com">thuzarmyint795@gmail.com</a>
             </li>
             <li>
               <FaLinkedin className="contact-icon" />

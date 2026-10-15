@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"; 
+import { useState } from "react";
 import useScrollReveal from "./hooks/useScrollReveal";
 import useActiveSection from "./hooks/useActiveSection";
 
@@ -11,6 +11,7 @@ import TechnicalExpertise from "./components/sections/TechnicalExpertise";
 import ExperienceSection from "./components/sections/ExperienceSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import ContactSection from "./components/sections/ContactSection";
+import CvSection from "./components/sections/CvSection";
 
 export default function App() {
   const [active, setActive] = useState("about");
@@ -35,6 +36,8 @@ export default function App() {
       <ExperienceSection />
 
       <ProjectsSection />
+
+      <CvSection />
 
       <ContactSection />
 

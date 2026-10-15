@@ -9,8 +9,8 @@ function ProjectsSection() {
         <SectionHeader
           index={4}
           label="Projects"
-          title="Selected Projects"
-          sub="Business websites, commerce workflows and AI-enabled experiences built with teams across agriculture, animal health and wholesale."
+          title="Selected work"
+          sub="A selection of business platforms and digital experiences across agriculture, animal health, and wholesale commerce."
         />
         <div className="projects-grid">
           {PROJECTS.map((project, i) => (

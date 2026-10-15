@@ -1,6 +1,6 @@
 # Thu Zar Myint — Portfolio
 
-Personal portfolio showcasing my experience as a Senior Web Developer and my journey toward AI application development.
+Personal portfolio showcasing my experience as a Senior Web Developer, selected business platforms, and CV.
 
 ## About Me
 
@@ -8,7 +8,7 @@ I’m a Senior Web Developer specializing in PHP, Laravel, REST APIs, MySQL, Pos
 
 I also have experience configuring and integrating ElevenLabs AI agents for web and WhatsApp experiences.
 
-Currently expanding my skills in:
+I am also expanding my skills in:
 
 - Python
 - FastAPI
@@ -32,10 +32,17 @@ Currently expanding my skills in:
 
 ## Featured Projects
 
-- **Durian Doctor** — Ongoing web platform project with a diagnosis workflow and AI agent integration.
-- **Dandaragan Estate Wholesale** — B2B wholesale ordering and commerce platform.
-- **Zagro Australia** — Corporate web project with AI-powered product traceability features.
-- **Zagro** — Corporate website project.
+- **Durian Doctor** — Regional grower-advisory platform with pest and disease diagnosis, knowledge resources, product catalogues, and an integrated AI agent.
+- **Dandaragan Estate Wholesale** — B2B olive-oil ordering portal with business accounts, order fulfilment tracking, and purchase history.
+- **Zagro Australia** — Animal-health online shop and corporate digital experience.
+- **Zagro Sales Record Management** — Internal sales-record application (authorized users only).
+- **Zagro Corporate** — Corporate website supporting Zagro's international agrisolutions business.
+
+The live websites provide context about each product. Project summaries describe the work and capabilities shown in my CV.
+
+## CV
+
+The full CV is available from the portfolio's hero and CV sections. The downloadable PDF is stored at `public/ThuZar-Myint-CV.pdf`.
 
 Visit the portfolio to explore the projects and their live links.
 

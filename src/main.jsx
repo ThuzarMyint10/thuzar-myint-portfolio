@@ -14,6 +14,8 @@ import "./styles/contact-section.css";
 import "./styles/footer.css";
 import "./styles/technical_expertise.css";
 import "./styles/section-header.css";
+import "./styles/cv-section.css";
+import "./styles/portfolio-refresh.css";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(

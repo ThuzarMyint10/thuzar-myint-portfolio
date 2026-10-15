@@ -5,6 +5,8 @@ import { SECTIONS } from "../constants/sections";
 function useActiveSection(setActive) {
   useEffect(() => {
     const onScroll = () => {
+      const activationPoint = 120;
+
       for (const id of SECTIONS) {
         const el =
           document.getElementById(id);
@@ -14,8 +16,8 @@ function useActiveSection(setActive) {
             el.getBoundingClientRect();
 
           if (
-            r.top <= 90 &&
-            r.bottom >= 90
+            r.top <= activationPoint &&
+            r.bottom >= activationPoint
           ) {
             setActive(id);
 
@@ -25,17 +27,22 @@ function useActiveSection(setActive) {
       }
     };
 
+    onScroll();
+
     window.addEventListener(
       "scroll",
       onScroll,
       { passive: true }
     );
+    window.addEventListener("resize", onScroll);
 
-    return () =>
+    return () => {
       window.removeEventListener(
         "scroll",
         onScroll
       );
+      window.removeEventListener("resize", onScroll);
+    };
   }, [setActive]);
 }
 

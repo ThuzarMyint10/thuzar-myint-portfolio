@@ -3,5 +3,6 @@ export const SECTIONS = [
   "skills",
   "experience",
   "projects",
+  "cv",
   "contact",
 ];
