@@ -69,5 +69,5 @@ The production build is generated in the `dist` directory. Deploy that directory
 ## Contact
 
 - GitHub: [@ThuzarMyint10](https://github.com/ThuzarMyint10)
-- LinkedIn: [Thu Zar Myint](https://www.linkedin.com/in/thuzarmyint-a2a706258)
+- LinkedIn: [Thu Zar Myint](https://www.linkedin.com/in/thuzar-myint-a2a706258)
 - Email: [thuzarmyint795@gmail.com](mailto:thuzarmyint795@gmail.com)

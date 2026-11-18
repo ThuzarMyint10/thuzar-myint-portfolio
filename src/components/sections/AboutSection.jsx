@@ -85,12 +85,6 @@ function AboutSection() {
         </a>
       </div>
 
-      {/* Scroll */}
-      <div className="scroll-indicator">
-        <span>SCROLL</span>
-
-        <div className="scroll-line" />
-      </div>
     </section>
   );
 }

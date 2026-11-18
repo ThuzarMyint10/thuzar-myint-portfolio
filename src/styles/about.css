@@ -186,27 +186,6 @@
   50% { opacity: 0; }
 }
 
-.scroll-indicator {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  position: absolute; 
-  bottom: 0.1px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: var(--text2);
-  font-size: 10px;
-  letter-spacing: 0.15em;
-}
-
-.scroll-line {
-  width: 1px;
-  height: 40px;
-  background: linear-gradient(to bottom, var(--text2), transparent);
-  animation: pulse 2s infinite;
-}
-
 @media (max-width: 600px) {
   .about-section {
     min-height: auto;

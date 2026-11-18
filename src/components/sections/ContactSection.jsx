@@ -60,7 +60,7 @@ export default function ContactSection() {
             <li>
               <FaLinkedin className="contact-icon" />
               <a
-                href="https://www.linkedin.com/in/thuzarmyint-a2a706258"
+                href="https://www.linkedin.com/in/thuzar-myint-a2a706258"
                 target="_blank"
                 rel="noreferrer"
               >

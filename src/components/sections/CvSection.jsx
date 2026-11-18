@@ -33,7 +33,7 @@ export default function CvSection() {
 
           <div className="cv-contact-links">
             <a href="mailto:thuzarmyint795@gmail.com"><FaEnvelope aria-hidden="true" /> thuzarmyint795@gmail.com</a>
-            <a href="https://www.linkedin.com/in/thuzarmyint-a2a706258" target="_blank" rel="noreferrer"><FaLinkedin aria-hidden="true" /> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/thuzar-myint-a2a706258" target="_blank" rel="noreferrer"><FaLinkedin aria-hidden="true" /> LinkedIn</a>
             <a href="https://github.com/ThuzarMyint10" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /> GitHub</a>
             <span><FaMapMarkerAlt aria-hidden="true" /> Yangon, Myanmar</span>
           </div>

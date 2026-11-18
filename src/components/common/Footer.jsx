@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <span className="footer-text">
-        © 2025 Thu Zar Myint
+        © {new Date().getFullYear()} Thu Zar Myint
       </span>
 
       <span className="footer-text">
