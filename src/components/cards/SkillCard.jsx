@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CircleProgress from "../common/CircleProgress";
-import LevelBadge from "../common/LevelBadge";
+import CircleProgress from "../common/Circleprogress";
+import LevelBadge from "../common/Levelbadge";
 
 export default function SkillCard({ skill, catColor, catAccent, index }) {
   const [hovered, setHovered] = useState(false);

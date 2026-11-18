@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CircleProgress from "../common/CircleProgress";
+import CircleProgress from "../common/Circleprogress";
 
 export default function CategoryCard({ cat, onClick, index }) {
   const [hovered, setHovered] = useState(false);
