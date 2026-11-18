@@ -25,21 +25,36 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      # 1. Get the repository source code
+      # 1. Checkout source code
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      # 2. Configure GitHub Pages
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Build React application
+      - name: Build application
+        run: npm run build
+
+      # 5. Configure GitHub Pages
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      # 3. Upload the docs folder as a deployment artifact
+      # 6. Upload Vite production output
       - name: Upload website artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './docs'
+          path: './dist'
 
-      # 4. Deploy the website
+      # 7. Deploy website
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
